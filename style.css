@@ -6,6 +6,7 @@ File: style.css
 */
 body {
   font-family: 'Courier New', Courier, monospace;
+  /*aligns the text within the body to the horizontal center of the page*/
   text-align: center;
 }
 
@@ -17,18 +18,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*adds a 32px margin between the bottom of the title and the content underneath it*/
   margin-bottom: 32px;
 }
 
+/*creates a container class for the information*/
 .container
 {
+  /*sets display mode to flex*/
   display: flex;
+  /*centers the content horizontally*/
   justify-content: center;
+  /*places a 52px gap in between each item within the container class*/
   gap: 52px;
 }
 
+/*creates a plants clss for each plant within the container class*/
 .plants
 {
+  /*sets the max-width of each item within the plants class to 200px*/
   max-width: 200px;
 }
 
